@@ -288,9 +288,12 @@ footer p {
 	text-align: center;
 	font-size: 1rem;
 }
+footer p a {
+  text-decoration: underline;
+}
 footer p a:hover,
 footer p a:focus {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .up {
@@ -308,6 +311,30 @@ footer p a:focus {
 .up:focus,
 .up:active {
   color: var(--accent);
+}
+
+/* 404 page */
+.notFoundContainer {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.notFoundContainer h1 {
+  font-size: 4rem;
+}
+
+.notFoundContainer p {
+  font-size: 2rem;
+}
+
+.notFoundContainer a {
+  font-size: 3rem;
+  border: 4px solid var(--accent);
+  padding: 5px;
+}
+.notFoundContainer a:hover,
+.notFoundContainer a:focus {
+  border: 4px solid var(--white);
 }
 
 /* Media Queries */
