@@ -67,12 +67,12 @@
     <div class="mobile-nav">
       <!-- Mobile menu -->
       <div class="hamburger" id="hamburger">
-        <div id="navIcon">
+        <button id="navIcon">
           <span></span>
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </button>
         <div class="mobileNav" id="mobileNav">
           <?php wp_nav_menu( array(
             'theme_location' => 'primary',
